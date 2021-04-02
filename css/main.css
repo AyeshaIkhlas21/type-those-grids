@@ -24,8 +24,8 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-    "header"
-    "main";
+  "header"
+  "main";
 }
 
 img {
@@ -70,8 +70,9 @@ main {
   display: grid;
 }
 
-dl {
-  grid-template-columns: 1fr, 1fr, 1fr;
+figure {
+  display: grid;
+  grid-template-columns: 3fr;
 }
 
 dl dt {
@@ -94,9 +95,6 @@ dl dd {
 @media screen and (min-width: 40em) {
 
   body {
-
-  /* desktop size grid */
-
     grid-template-columns: 1fr;
     grid-template-areas:
       "header"
